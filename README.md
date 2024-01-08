@@ -1,4 +1,1 @@
-ProPictureBox
-=============
-
-Picturebox which have zoom &amp; pan capabilities.
+C#实现的一个可以缩放和拖拽的图片显示控件Picturebox
