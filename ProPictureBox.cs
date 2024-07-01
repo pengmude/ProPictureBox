@@ -147,6 +147,8 @@ public class ProPictureBox : PictureBox
 
 	protected override void OnPaint(PaintEventArgs e)
 	{
+		if(Image == null)
+			return;
 		var imRect = Transformation.ConvertToIm(ClientRectangle);
 		e.Graphics.DrawImage(Image, ClientRectangle, imRect, GraphicsUnit.Pixel);
 	}
